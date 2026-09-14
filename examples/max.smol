@@ -1,0 +1,16 @@
+; Print the larger of two integers
+;
+; 1. read a
+; 2. read b
+; 3. if a > b, jump to printing a
+; 4. print b
+; 5. skip past printing a
+; 6. print a
+
+( let a <-> )
+( let b <-> )
+( if ( > a b ) ( goto 6 ) )
+b
+( goto 7 )
+a
+( let done true )

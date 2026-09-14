@@ -1,0 +1,17 @@
+; Greatest common divisor (Euclidean algorithm)
+;
+; 1. read a
+; 2. read b
+; 3. if b is 0, jump to the print
+; 4-6. (a, b) = (b, a % b)
+; 7. loop back to 3
+; 8. print a
+
+( let a <-> )
+( let b <-> )
+( if ( == b 0 ) ( goto 8 ) )
+( let t b )
+( let b ( % a b ) )
+( let a t )
+( goto 3 )
+a

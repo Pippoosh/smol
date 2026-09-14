@@ -1,0 +1,13 @@
+; Comparisons and boolean operators
+
+( == 2 2 )
+( != 2 3 )
+( > 5 3 )
+( < 5 3 )
+( >= 5 5 )
+( <= 4 5 )
+( || false true )
+( && true false )
+( ! false )
+( == true true )
+( != false true )

@@ -1,0 +1,7 @@
+; All five integer operators
+
+( + 10 3 )
+( - 10 3 )
+( * 10 3 )
+( / 10 3 )
+( % 10 3 )

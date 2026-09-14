@@ -1,0 +1,17 @@
+; Collatz sequence, starting from a positive integer
+;
+; 1. read n
+; 2. print n
+; 3. stop when n is 1
+; 4-6. even: n = n / 2
+; 7-8. odd: n = 3n + 1
+
+( let n <-> )
+n
+( if ( == n 1 ) ( goto 9 ) )
+( if ( != ( % n 2 ) 0 ) ( goto 7 ) )
+( let n ( / n 2 ) )
+( goto 2 )
+( let n ( + ( * 3 n ) 1 ) )
+( goto 2 )
+( let done true )

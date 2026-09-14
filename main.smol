@@ -1,0 +1,13 @@
+; Compute and print the table of a number entered by the user till 12
+;
+; 1. read the number
+; 2. start i at 0
+; 3. increment i
+; 4. print x * i
+; 5. loop back to 3 until i reaches 12
+
+( let x <-> )
+( let i 0 )
+( let i ( + i 1 ) )
+( * x i )
+( if ( < i 12 ) ( goto 3 ) )
