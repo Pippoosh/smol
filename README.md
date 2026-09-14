@@ -160,3 +160,6 @@ It's smol.
 * Comments are whole-line only, starting with `;`
 * `&&` and `||` evaluate both operands
 * Division and modulo by zero produce an error
+
+## Version
+v0.1.0
