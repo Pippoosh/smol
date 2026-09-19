@@ -39,7 +39,7 @@ odin build .
 Or without a binary:
 
 ```sh
-odin run . examples/table.smol
+odin run . -- examples/table.smol
 ```
 
 Type an integer when prompted (`>`).
